@@ -22,8 +22,8 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
       <Tilt
         glareEnable
         tiltEnable
-        tiltMaxAngleX={30}
-        tiltMaxAngleY={30}
+        tiltMaxAngleX={5}
+        tiltMaxAngleY={5}
         glareColor="#aaa6c3"
       >
         <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[300px]">

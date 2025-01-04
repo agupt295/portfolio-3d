@@ -24,13 +24,13 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  exposys_data_labs,
+  mileazo,
+  nexus,
+  siemens,
+  connect_social,
+  axi_vision,
+  inv_control,
   threejs,
 } from "../assets";
 
@@ -51,19 +51,19 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Web Developer",
+    icon: web,
+  },
+  {
+    title: "Database Engineer",
+    icon: mobile,
+  },
+  {
+    title: "Cybersecurity Enthusiast",
     icon: creator,
   },
 ];
@@ -106,10 +106,6 @@ const technologies: TTechnology[] = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -125,149 +121,120 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title: "SDE (Part-time)",
+    companyName: "Nexus",
+    icon: nexus,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sept 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a robust platform integrating specialized IDEs and real time collaborative tools for repository publishing.",
+      "Designed dynamic landing pages, utilizing TypeScript, CSS, and META Open Graph tags for metadata optimization.",
+      "Implemented backend solution using Express.js for APIs, MySQL for the database and Nodemailer for email communication."
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
+    title: "Backend Developer Intern",
+    companyName: "Exposys Data Labs",
+    icon: exposys_data_labs,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jun 2024 - July 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Leveraged AWS KMS and AWS SDK for Python (boto3) to develop a robust algorithm that enhances the security of cloud-based messaging.",
+      "Utilized AWS KMS for user authorization and secure private key protection.",
+      "Integrated Python's 'bcrypt' library to make an additional layer of symmetric encryption thereby ensuring user authentication.",
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
+    title: "SDE Intern",
+    companyName: "Siemens EDA",
+    icon: siemens,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed PyQt app, providing users with better data visualization capabilities of the AXI read/write transactions.",
+      "Utilized Python libraries: Matplotlib to create readable graphs, NumPy & SciPy to perform numerical computations.",
+      "Enabled developers to study trends, compare & save plots efficiently, reducing the analytical time by roughly 33.3%."
+    ],
+  },
+  {
+    title: "Full-Stack SDE Intern",
+    companyName: "MileaZo",
+    icon: mileazo,
+    iconBg: "#383E56",
+    date: "May 2023 - August 2023",
+    points: [
+      "Collaborated on a solution aimed at improving customer updates to track vehicle servicing status.",
+      "Participated in Pair Programming sessions to develop full-stack solutions using React.js & Node.js with PostgreSQL DB.",
+      "Partnered with Product Development Team to discuss customer feedback, achieving 70% higher customer satisfaction."
     ],
   },
 ];
 
 const testimonials: TTestimonial[] = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+    testimonial: "Worked closely with Aryan; a dedicated, quick learner who independently delivered impactful projects.",
+    name: "Yogesh Badaya",
+    designation: "Tech Lead",
+    company: "Siemens EDA",
+    image: "https://media.licdn.com/dms/image/v2/C4E03AQGaqdVmiqXN2g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516367561430?e=1741219200&v=beta&t=SrxyB4xhG-Ua9RUFKqULhPFlBGFSCT-HAfvVmDTpFQk",
+  }
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "ConnectSocial",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This application imitates a social media app that allows users to post, tag images. They can make friends, post a like and a comment on their photos.",
     tags: [
       {
-        name: "react",
+        name: "java",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "javafx",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mysql",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: connect_social,
+    sourceCodeLink: "https://github.com/agupt295/ConnectSocial",
   },
   {
-    name: "Job IT",
+    name: "INVControl",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "iOS based application implemented to help users add items, update and keep a track of their inventory system.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "swift",
+        color: "orange-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "firebase",
+        color: "yellow-text-gradient",
       },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: inv_control,
+    sourceCodeLink: "https://github.com/agupt295/INVControl",
   },
   {
-    name: "Trip Guide",
+    name: "AXIVision",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This project accepts an excel file (supposed to store information of a AXI transaction), and produces graph outputs to let users analyze the transaction data.",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "pyqt",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: axi_vision,
+    sourceCodeLink: "https://github.com/agupt295/AXIVision",
   },
 ];
 

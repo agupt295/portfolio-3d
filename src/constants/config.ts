@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Aryan Gupta — 3D Portfolio",
+    fullName: "Aryan Gupta",
+    email: "aryan.gupta.careers@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Aryan Gupta",
+    p: ["I develop user interfaces", "& secure backend systems."],
   },
   contact: {
     p: "Get in touch",
@@ -67,11 +67,12 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I’m a passionate software developer with experience in building dynamic frontend applications
+                using JavaScript. On the backend, I specialize in creating
+                scalable and efficient APIs with Express.js, and managing databases including MySQL and MongoDB,
+                while ensuring secure integrations and adherence to security protocols. I’m a
+                quick learner with hands-on experience in Java, Python and iOS app-dev in Swift, always eager
+                to collaborate and build user-centric solutions that make a real impact!`,
     },
     experience: {
       p: "What I have done so far",
@@ -84,11 +85,9 @@ export const config: TConfig = {
     works: {
       p: "My work",
       h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      content: `Following are very few projects that showcases my skills and experience.
+                Each project is briefly described with links to code repositories. It reflects my
+                ability to work with different technologies and manage projects effectively.`,
     },
   },
 };

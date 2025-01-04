@@ -18,8 +18,8 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
   <Tilt
     glareEnable
     tiltEnable
-    tiltMaxAngleX={30}
-    tiltMaxAngleY={30}
+    tiltMaxAngleX={5}
+    tiltMaxAngleY={5}
     glareColor="#aaa6c3"
   >
     <div className="max-w-[250px] w-full xs:w-[250px]">
@@ -31,7 +31,7 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
           <img
             src={icon}
             alt="web-development"
-            className="h-16 w-16 object-contain"
+            className="h-32 w-32 object-contain"
           />
 
           <h3 className="text-center text-[20px] font-bold text-white">
